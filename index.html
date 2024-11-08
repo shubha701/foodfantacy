@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TECH TITANS | URBAN BITES </title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#">
+                        <img src="assets/logo1.png" alt="logo" class="nav__logo-dark" />
+                        <img src="assets/logo1.png" alt="logo" class="nav__logo-white" />
+                    </a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#special">SPECIAL</a></li>
+                <li><a href="#starter">STARTER</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <div class="header__image">
+                <img src="assets/biryani2.png" alt="header" />
+            </div>
+            <div class="header__content">
+                <h1><br />WELCOME TO <span>URBAN BITES</span></h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+        <div class="banner__card">
+
+            <p>TRY IT OUT TODAY</p>
+            <h4>MOST POPULAR BIRYANI</h4>
+        </div>
+        <div class="banner__card">
+
+            <p>TRY IT OUT TODAY</p>
+            <h4>MORE FUN<br />MORE TASTE</h4>
+        </div>
+        <div class="banner__card">
+            <p>TRY IT OUT TODAY</p>
+            <h4>FRESH & CHILI</h4>
+        </div>
+    </section>
+
+    <section class="section__container order__container" id="starter">
+        <h3>ALWAYS TASTEY FOOD</h3>
+        <h2 class="section__header">CHOOSE & ENJOY</h2>
+        <p class="section__description">
+            Whether you crave classic flavors or daring combinations, this is where
+            your culinary journey begins. Indulge your cravings and savor every bite
+            as you create your personalized food experience with URBAN BITES.
+        </p>
+        <div class="order__grid">
+            <div class="order__card">
+                <img src="assets/burger.jpg" alt="order" />
+                <h4>Chicken Burger</h4>
+                <p>
+                    Sink your teeth into the timeless perfection of our Chicken Burger,
+                    an experience that never goes out of style.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="order__card">
+                <img src="assets/pizza.jpg" alt="order" />
+                <h4>Veggie Delight Pizza</h4>
+                <p>
+                    Embrace the vibrant flavors of our Veggie Delight pizza, a
+                    celebration of freshness and wholesome goodness.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+            <div class="order__card">
+                <img src="assets/fries.jpg" alt="order" />
+                <h4>French Fries</h4>
+                <p>
+                    Indulge in a symphony of side dish or snack of our French Fries , deep fried potatoes perfect crispy
+                    with
+                    ketchup.
+                </p>
+                <button class="btn">ORDER NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container event__container" id="menu">
+  <header>
+    <h1>Restaurant Menu</h1>
+    <nav>
+      <button onclick="showSection('breakfast')">Breakfast</button>
+      <button onclick="showSection('lunch')">Lunch</button>
+      <button onclick="showSection('dinner')">Dinner</button>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="breakfast" class="menu-section">
+      <h2>Breakfast</h2>
+      <p>Delicious morning meals to start your day!</p>
+    </section>
+    
+    <section id="lunch" class="menu-section">
+      <h2>Lunch</h2>
+      <p>Hearty lunches to keep you going!</p>
+    </section>
+    
+    <section id="dinner" class="menu-section">
+      <h2>Dinner</h2>
+      <p>Exquisite dishes to end the day.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+        
+        <section class="reservation" id="contact">
+            <div class="section__container reservation__container">
+                <h3>RESERVATION</h3>
+                <h2 class="section__header">BOOK YOUR TABLE</h2>
+                <form action="/">
+                    <input type="text" placeholder="NAME" />
+                    <input type="email" placeholder="EMAIL" />
+                    <input type="date" placeholder="DATE" />
+                    <input type="time" placeholder="TIME" />
+                    <input type="number" placeholder="PEOPLE" />
+                    <button class="btn" type="submit">FIND TABLE</button>
+                </form>
+            </div>
+            <img src="assets/reservation-bg-1.png" alt="reservation" class="reservation__bg-1" />
+            <img src="assets/reservation-bg-2.png" alt="reservation" class="reservation__bg-2" />
+        </section>
+
+        <footer class="footer">
+            <div class="section__container footer__container">
+                <div class="footer__logo">
+                    <img src="assets/logo1.png" alt="logo" />
+                </div>
+                <div class="footer__content">
+                    <p>
+                        Welcome to URBAN BITES, where passion for exceptional food and
+                        genuine hospitality come together. Our story is one of dedication to
+                        crafting the perfect food experience, from sourcing the finest
+                        ingredients to delivering unparalleled taste in every bite.
+                    </p>
+                    <div>
+                        <ul class="footer__links">
+                            <li>
+                                <span><i class="ri-map-pin-2-fill"></i></span>
+                                Gothapatana, Bhubaneswar, 751017
+                            </li>
+                            <li>
+                                <span><i class="ri-mail-fill"></i></span>
+                                urbanbitesx@gmail.com 
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bar">
+                Copyright © 2024 TECH TITANS. All rights reserved.
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('B6-BDby5_KHrY4Isb')
+</script>
+        
+    
+</body>
+
+</html>
